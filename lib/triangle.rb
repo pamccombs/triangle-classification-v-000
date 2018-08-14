@@ -14,6 +14,7 @@ class Triangle
     if(negative? == true || valid? == false)
       raise TriangleError
     else
+    end
     if
     #elsif
     @triangle.uniq.length == 1
