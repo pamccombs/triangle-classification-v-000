@@ -11,9 +11,9 @@ class Triangle
   end
   
   def kind
-    #if(negative? == true || valid? == false)
+    if(negative? == true || valid? == false)
       raise TriangleError
-    #else
+    else
     if
     #elsif
     @triangle.uniq.length == 1
