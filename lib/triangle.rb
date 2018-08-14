@@ -11,11 +11,11 @@ class Triangle
   end
   
   def kind
-    if(negative? == true || valid? == false)
+    #if(negative? == true || valid? == false)
       raise TriangleError
-    else
-    #if
-    elsif
+    #else
+    if
+    #elsif
     @triangle.uniq.length == 1
       :equilateral
     elsif
